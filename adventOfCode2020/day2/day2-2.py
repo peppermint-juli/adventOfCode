@@ -1019,16 +1019,6 @@ for pssw in passwords:
   if ((startPos in char_indexes[0] and endPos not in char_indexes[0]) or 
   (startPos not in char_indexes[0] and endPos in char_indexes[0])):
     valid += 1
-  else:
-    print("passw: ", password)
-    print("app: ", char_indexes[0])
-    print("start: ", startPos)
-    print("end: ", endPos)
-
-  # print("passw: ", password)
-  # print("appearances: ", char_indexes)
-  # print("start is in passw: ", startPos in char_indexes[0])
-  # print("end is not in passw: ", endPos not in char_indexes[0])
 
   count += 1
 
