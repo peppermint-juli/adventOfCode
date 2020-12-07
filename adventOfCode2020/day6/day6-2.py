@@ -23,6 +23,5 @@ for index, line in enumerate(answers):
   if not line.endswith('\n'):
     numGroups += 1
     totalAnswers += len(answersPerGroup)
-    print('---------')
 
 print("Total answers: ", totalAnswers)
